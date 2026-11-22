@@ -1,0 +1,8 @@
+[workspace]
+members = ["proxy", "server", "tcp-migration"]
+exclude = ["hyper", "rustls"]
+resolver = "3"
+
+[patch.crates-io]
+hyper = { path = "hyper" }
+rustls = { path = "rustls/rustls" }

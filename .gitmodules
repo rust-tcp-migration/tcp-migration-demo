@@ -1,0 +1,15 @@
+[submodule "hyper"]
+	path = hyper
+	url = git@github.com:rust-tcp-migration/hyper.git
+[submodule "rustls"]
+	path = rustls
+	url = git@github.com:rust-tcp-migration/rustls.git
+[submodule "proxy"]
+	path = proxy
+	url = git@github.com:rust-tcp-migration/proxy.git
+[submodule "server"]
+	path = server
+	url = git@github.com:rust-tcp-migration/server.git
+[submodule "tcp-migration"]
+	path = tcp-migration
+	url = git@github.com:rust-tcp-migration/tcp-migration.git
